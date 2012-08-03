@@ -1,0 +1,38 @@
+/* Not all media were born equal */
+
+@media all and (max-device-width: 480px) {
+
+	.container {
+		width: 460px;
+		padding: 0 10px;
+		position: relative;
+	}
+	
+	header.container {
+		width: 460px;
+		text-align: center;
+	}
+	
+	header.container img {
+		margin-left: 10px;
+	}
+	
+	
+	body {
+		background-position: center 140%;
+	}
+	
+
+	
+	#knob .dial {
+		margin: 0 auto;
+		cursor: pointer;
+		font-size: 38px !important;	
+		margin-top: 180px !important;
+	}
+	
+}
+
+@media all and (max-device-width: 768px) and (orientation:portrait) {
+
+}

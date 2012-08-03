@@ -1,0 +1,85 @@
+/* Knob */
+
+	#knob {
+		text-align: center;
+		height: 500px;
+	}
+
+	#knob p {
+		font-size: 24px;
+		margin-bottom: 55px;
+		color: #576027;
+		line-height: 30px;
+		font-weight: bold;
+		font-family: NeoRetroFillRegular;
+	}
+	
+	#knob .dial {
+		margin: 0 auto;
+		cursor: pointer;
+		font-size: 40px !important;
+		margin-top: 180px !important;
+		font-family: NeoRetroFillRegular !important;
+	}
+	
+	#knob .dial:hover {
+		color: #ffffff !important;
+	}
+	
+/* Stuff */
+
+	.button {
+		color: #ffffff;
+		display: block;
+		width: 200px;
+		margin: 0 auto;
+		background: #576027;
+		font-size: 16px;
+		text-align: center;
+		line-height: 2.5em;
+		cursor: pointer;
+		font-weight: 200;
+	}
+	
+/* Ideas */
+
+	#ideas {
+		min-height: 500px;
+	}
+	
+	#ideas ul {
+		padding-bottom: 20px;
+	}
+
+	#ideas li {
+		list-style-type: none;
+		padding: 0;
+		font-size: 16px;
+		width: 100%;
+		text-align: center;
+		position: relative;
+	}
+	
+	#ideas li p {
+		font-size: 15px;
+		line-height: 23px;
+		width: 90%;
+		margin: 0 auto 16px;
+		font-weight: 200;
+	}
+	
+	#ideas li h2 {
+		font-size: 24px;
+		color: #ffffff;
+		margin-bottom: 40px;
+		line-height: 28px;
+		font-family: NeoRetroFillRegular;
+		text-transform:uppercase;
+		font-weight: bold;
+	}
+	
+	#ideas li img {
+		display: block;
+		margin: 0 auto 35px;
+	}
+	
