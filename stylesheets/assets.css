@@ -2,12 +2,12 @@
 
 	#knob {
 		text-align: center;
-		height: 500px;
+		height: 550px;
 	}
 
 	#knob p {
 		font-size: 24px;
-		margin-bottom: 55px;
+		margin-bottom: 35px;
 		color: #576027;
 		line-height: 30px;
 		font-weight: bold;
@@ -17,13 +17,17 @@
 	#knob .dial {
 		margin: 0 auto;
 		cursor: pointer;
-		font-size: 40px !important;
-		margin-top: 180px !important;
-		font-family: NeoRetroFillRegular !important;
+		font-size: 22px !important;
+		margin-top: 200px !important;
+		font-family: Courier, Helvetica, Arial, sans-serif !important; 
+		font-weight: normal !important;
+		background: url(../images/button.png) no-repeat !important;
+		color: #ffffff !important;
+		padding: 7px 0 18px !important;
 	}
 	
 	#knob .dial:hover {
-		color: #ffffff !important;
+		color: #576027 !important;
 	}
 	
 /* Stuff */
@@ -31,24 +35,41 @@
 	.button {
 		color: #ffffff;
 		display: block;
-		width: 200px;
+		width: 220px;
 		margin: 0 auto;
-		background: #576027;
 		font-size: 16px;
 		text-align: center;
-		line-height: 2.5em;
+		line-height: 39px;
+		padding-bottom: 10px;
 		cursor: pointer;
 		font-weight: 200;
+		background: url(../images/button.png) no-repeat !important;
+		color: #ffffff !important;
+	}
+	
+	.button:hover {
+		color: #576027 !important;
 	}
 	
 /* Ideas */
 
 	#ideas {
-		min-height: 500px;
+		min-height: 550px;
+		position: relative;
+	}
+	
+	#ideas h1 {
+		display: block;
+		font-size: 38px;
+		text-transform: uppercase;
+		font-family: NeoRetroFillRegular;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 10px;
 	}
 	
 	#ideas ul {
-		padding-bottom: 20px;
+		padding-bottom: 35px;
 	}
 
 	#ideas li {
@@ -63,7 +84,7 @@
 	#ideas li p {
 		font-size: 15px;
 		line-height: 23px;
-		width: 90%;
+		width: 75%;
 		margin: 0 auto 16px;
 		font-weight: 200;
 	}
@@ -81,5 +102,29 @@
 	#ideas li img {
 		display: block;
 		margin: 0 auto 35px;
+	}
+	
+	#ideas #pagination li {
+		position: absolute;
+		top: 150px;
+		display: block;
+		height: 53px;
+		width: 33px;
+		cursor: pointer;
+		text-align: right;	
+	}
+	
+	#ideas #pagination { padding: 0; margin: 0; }
+	
+	#ideas #pagination li.prev {
+		left: 0;
+		text-indent: 4000px;
+		background: url(../images/arrow_left.png) no-repeat;
+	}
+	
+	#ideas #pagination li.next {
+		right: 10px;
+		text-indent: 4000px;
+		background: url(../images/arrow_right.png) no-repeat;
 	}
 	

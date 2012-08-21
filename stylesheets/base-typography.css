@@ -81,7 +81,7 @@ body {
 
 /* =a */
 
-  a { color: #489F00; text-decoration: none; }
+  a { color: #ffffff; text-decoration: none; }
   a:hover, a:focus, a:active { text-decoration: underline; }
 
 /* =ul,ol,dl */

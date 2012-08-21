@@ -16,7 +16,14 @@ $(document).ready(function(){
 			$('#ideas').show();
 		
 			$('#ideas ul[data-label="'+slot+'"]').each(function(i,el){
-				$(el).show();			
+				
+				$('#ideas h1').html(slot)
+				$(el).show();	
+				$(el).easyPaginate({
+					step:1,
+					numeric: false
+				});	
+					
 			});
 			
 			$("html, body").animate({ scrollTop: 0 }, "fast");
