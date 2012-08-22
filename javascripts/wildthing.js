@@ -18,11 +18,15 @@ $(document).ready(function(){
 			$('#ideas ul[data-label="'+slot+'"]').each(function(i,el){
 				
 				$('#ideas h1').html(slot)
-				$(el).show();	
+				
+				$(el).shuffle();
+				
 				$(el).easyPaginate({
 					step:1,
 					numeric: false
-				});	
+				});
+				
+				$(el).show();	
 					
 			});
 			
@@ -39,6 +43,10 @@ $(document).ready(function(){
 	});
 	
 });
+
+function randomize(parent) {
+	
+}
 
 function renderLabel(value) {
 	
