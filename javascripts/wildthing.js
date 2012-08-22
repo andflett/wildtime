@@ -1,5 +1,12 @@
 $(document).ready(function(){
 	
+	$('#ideas ul li a[href^="http"]').each(function(i,el){
+		$(el).bind('click',function(ev){
+			ev.preventDefault();
+			window.open($(this).attr('href'))
+		});
+	});
+	
 	renderTime();
 	
 	$(".dial").bind('click',function(ev){
@@ -43,10 +50,6 @@ $(document).ready(function(){
 	});
 	
 });
-
-function randomize(parent) {
-	
-}
 
 function renderLabel(value) {
 	
