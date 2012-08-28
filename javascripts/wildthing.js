@@ -76,7 +76,7 @@ function renderTime() {
 	
 	// Set up idea UI
 	$('#ideas').hide();
-	$('#ideas ul').hide();
+	$('#ideas > ul').hide();
 	
 	$('#pagination').remove();
 	
