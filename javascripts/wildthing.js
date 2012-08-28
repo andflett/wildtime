@@ -27,6 +27,7 @@ $(document).ready(function(){
 				$('#ideas h1').html(slot)
 				
 				$(el).shuffle();
+				_gaq.push(['_trackEvent', 'Activities', 'Select', slot]);
 				
 				$(el).easyPaginate({
 					step:1,
